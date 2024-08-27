@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
   return (
     <header className={`fixed w-full bg-transparent z-50 mnhdr h-auto transition-all ${scrolling ? 'blur-background' : ''} ${mobileMenuOpen ? 'h-24 blur-background' : ''}`}>
       <nav className="container mx-auto px-6 py-3 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-semibold  text-white hover:text-cyan-400">
+        <Link href="/" className="text-2xl font-semibold  text-white animated-gradient">
           Retiishia
         </Link>
         <div className="hidden md:flex space-x-6">

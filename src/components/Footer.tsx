@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
     <footer className="text-white py-6 mt-40 footer-b">
       <div className="container mx-auto px-6">
         <div className="md:flex md:justify-between md:items-center">
-          <div className="hover:text-cyan-400 text-2xl font-semibold mb-6 md:mb-0">
+          <div className="animated-gradient text-2xl font-semibold mb-6 md:mb-0">
             Retiishia
           </div>
           <div className="mb-6 md:mb-0 md:flex md:space-x-12">

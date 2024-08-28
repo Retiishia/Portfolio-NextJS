@@ -35,6 +35,8 @@ const Navbar: React.FC = () => {
         </Link>
         <div className="hidden md:flex space-x-6">
           <ButtonLink className="text-lg font-medium  text-white hover:text-cyan-300" buttonText='Home' elementId='hero'/>
+          <ButtonLink className="text-lg font-medium  text-white hover:text-cyan-300" buttonText='About' elementId='about'/>
+          <ButtonLink className="text-lg font-medium  text-white hover:text-cyan-300" buttonText='Experience' elementId='experience'/>
           <ButtonLink className="text-lg font-medium  text-white hover:text-cyan-300" buttonText='Project' elementId='project'/>
           <ButtonLink className="text-lg font-medium  text-white hover:text-cyan-300" buttonText='Contact' elementId='contact'/>
         </div>

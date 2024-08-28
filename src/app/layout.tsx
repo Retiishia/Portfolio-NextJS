@@ -1,11 +1,11 @@
 import './globals.css'
 
 export const metadata = {
-  title: "Retiishia",
-  description: 'Welcome to my portfolio!',
+  title: "Retiishia - Portfolio",
+  description: 'Welcome to my Portfolio!',
   openGraph: {
     title: 'Retiishia',
-    description: 'Welcome to my portfolio!',
+    description: 'Welcome to my Portfolio!',
     siteName: 'retiishia.dev',
     images: [
       {
@@ -17,8 +17,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Retiishia',
-    description: 'Welcome to my portfolio!',
+    title: 'Retiishia - Portfolio',
+    description: 'Welcome to my Portfolio!',
     creator: '@Retiishia',
     images: ['/screenshot.png'],
   },

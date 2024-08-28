@@ -12,10 +12,20 @@ const Footer: React.FC = () => {
             Retiishia
           </div>
           <div className="mb-6 md:mb-0 md:flex md:space-x-12">
-            <ul className="space-y-4">
+          <ul className="space-y-4">
               <li>
                 <ButtonLink className="text-lg font-medium hover:text-cyan-400" buttonText='Home' elementId='hero'/>
               </li>
+            </ul>
+            <ul className="space-y-4">
+              <li>
+                <ButtonLink className="text-lg font-medium hover:text-cyan-400" buttonText='Experience' elementId='experience'/>
+              </li>
+              <li>
+                <ButtonLink className="text-lg font-medium hover:text-cyan-400" buttonText='About' elementId='about'/>
+              </li>
+            </ul>
+            <ul className="space-y-4"> 
               <li>
                 <ButtonLink className="text-lg font-medium hover:text-cyan-400" buttonText='Project' elementId='project'/>
               </li>
@@ -23,6 +33,8 @@ const Footer: React.FC = () => {
                 <ButtonLink className="text-lg font-medium hover:text-cyan-400" buttonText='Contact' elementId='contact'/>
               </li>
             </ul>
+             
+            
             <div className="flex space-x-6 ">
               <Link className="hover:text-cyan-400" href="https://github.com/Retiishia" target='_blank'>
                 <FaGithub size={36}/>

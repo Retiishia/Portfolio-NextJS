@@ -2,14 +2,14 @@ const projects = [
     {
       title: 'Weather App',
       description: 'Creating a Weather application using the Weather API and using React.JS',
-      imageUrl: 'https://cdn.discordapp.com/attachments/959463342886490202/1278069826195034246/weatherapp.png?ex=66cf76c7&is=66ce2547&hm=214af17be72a3ce229a1b478d3ff33cff41a11ff289ac7f36051a5151fc73286&',
+      imageUrl: '/weatherapp.png',
       caseStudyUrl: 'https://weatherapp.retiishia.my.id/'
     },
     {
       title: 'Datenshi',
       description: 'Project Making Website with Datenshi Games Indonesia using Next.JS & Tailwind CSS',
-      imageUrl: 'https://cdn.discordapp.com/attachments/959463342886490202/1278070195352633466/datenshi.png?ex=66cf771f&is=66ce259f&hm=c8ec7cad408f0501dcebe1ff55afdb12ee4cab305c5f63b0f441474f7464a593&',
-      caseStudyUrl: '#',
+      imageUrl: '/datenshi.png',
+      caseStudyUrl: 'https://datenshi.pw',
     },
     
   ];

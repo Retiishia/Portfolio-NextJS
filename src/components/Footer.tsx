@@ -6,7 +6,7 @@ import { ButtonLink } from './Scroller';
 const Footer: React.FC = () => {
   return (
     <footer className="text-white py-6 mt-40 footer-b">
-      <div className="container mx-auto px-6">
+      <div className="max-w-7xl w-11/12 h-full flex flex-col pt-10 px-8 pb-2 gap-16 md:px-10 md:mx-auto md:gap-32">
         <div className="md:flex md:justify-between md:items-center">
           <div className="animated-gradient text-2xl font-semibold mb-6 md:mb-0">
             Retiishia
@@ -17,24 +17,8 @@ const Footer: React.FC = () => {
                 <ButtonLink className="text-lg font-medium hover:text-cyan-400" buttonText='Home' elementId='hero'/>
               </li>
             </ul>
-            <ul className="space-y-4">
-              <li>
-                <ButtonLink className="text-lg font-medium hover:text-cyan-400" buttonText='Experience' elementId='experience'/>
-              </li>
-              <li>
-                <ButtonLink className="text-lg font-medium hover:text-cyan-400" buttonText='About' elementId='about'/>
-              </li>
-            </ul>
-            <ul className="space-y-4"> 
-              <li>
-                <ButtonLink className="text-lg font-medium hover:text-cyan-400" buttonText='Project' elementId='project'/>
-              </li>
-              <li>
-                <ButtonLink className="text-lg font-medium hover:text-cyan-400" buttonText='Contact' elementId='contact'/>
-              </li>
-            </ul>
-             
-            
+
+            {/* // LOGO Social Media */}
             <div className="flex space-x-6 ">
               <Link className="hover:text-cyan-400" href="https://github.com/Retiishia" target='_blank'>
                 <FaGithub size={36}/>

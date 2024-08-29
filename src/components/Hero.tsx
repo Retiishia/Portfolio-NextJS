@@ -19,9 +19,10 @@ const Hero: React.FC = () => {
         <h1 className="text-4xl md:text-6xl font-bold mb-4"><span className='animated-gradient'>Welcome to my porftolio! </span>👋</h1>
         <p className="text-xl md:text-2xl mb-8">
           This website is for me to showcase my previous projects and achievements, hope you enjoy your stay!
-          <p>
-            This website was created using <span className=''>Next.JS</span> and <span>Tailwind CSS</span>
-          </p>
+          <br></br>
+          <span>
+          This website was created using <span className=''>Next.JS</span> and <span>Tailwind CSS</span>       
+          </span>
         </p>
         <div className="flex justify-center space-x-4">
           <ButtonLink className="border-white border-2 text-cyan-300 font-semibold px-6 py-2 rounded-md hover:bg-gray-500 hover:text-cyan-300" buttonText='Project' elementId='project'/>

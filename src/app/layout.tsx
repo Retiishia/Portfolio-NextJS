@@ -1,22 +1,21 @@
 import './globals.css'
 
 export const metadata = {
-  title: "Retiishia - Portfolio",
-  description: 'Welcome to my Portfolio!',
-  openGraph: {
-    title: 'Retiishia',
-    description: 'Welcome to my Portfolio!',
-    siteName: 'retiishia.dev',
+  title: 'Retiishia',
+    description: 'Welcome to My Portofolio',
+    url: 'https://retiishia.my.id',
+    siteName: 'Retiishia ',
     images: [
       {
-        url: "/oglink.png"
-      }
+        url: '/screenshot.png',
+        width: 800,
+        height: 600,
+      },
     ],
     locale: 'en-GB',
     type: 'website',
-  },
-  category: 'technology',
-}
+  }
+
 
 export default function RootLayout({
   children,

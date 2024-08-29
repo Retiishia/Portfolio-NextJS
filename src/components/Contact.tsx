@@ -9,7 +9,7 @@ const Contact: React.FC = () => {
         <div className="bg-transparent border p-8 rounded-lg shadow-lg text-white w-full md:max-w-4xl mx-auto mt-8 cc-bg blur-background">
             <div className="flex justify-between items-center">
                 <div>
-                    <h2 className="text-2xl font-bold mb-2">Farhan Aziz</h2>
+                    <h2 className="animated-gradient text-2xl font-bold mb-2">Farhan Aziz</h2>
                     <p className="text-sm mb-4">Front-End Engineer / IT Support / Network Engineer </p>
                 </div>
 

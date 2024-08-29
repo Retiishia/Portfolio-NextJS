@@ -23,14 +23,16 @@ const projects = [
             {projects.map((project) => (
               <div key={project.title} className="flex flex-col rounded-lg shadow-lg overflow-hidden bg-[#0a0a0a]">
                 <div className="flex-shrink-0">
+                  <a href={project.caseStudyUrl} target="_blank">
                   <img className="h-48 w-full object-cover" src={project.imageUrl} alt={project.title} />
+                  </a>
                 </div>
                 <div className="flex-1 bg-transparent p-6 flex flex-col justify-between pw-bg">
                   <div className="flex-1">
                     {project.caseStudyUrl !== '#' ? (
                       <a href={project.caseStudyUrl} target='_blank' rel='noopener noreferrer'>
                         <div className="block mt-2">
-                          <p className="text-xl font-semibold text-gray-300">{project.title}</p>
+                          <p className="animated-gradient text-justify text-xl font-semibold text-gray-300">{project.title}</p>
                           <p className="mt-3 text-base text-gray-300">{project.description}</p>
                         </div>
                       </a>

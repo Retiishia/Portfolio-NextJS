@@ -33,10 +33,10 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ experience, side }) => {
   return (
     <div className={`relative w-full my-6 ${side === 'right' ? 'md:ml-auto' : 'md:mr-auto'} md:w-2/5 ${side === 'right' ? 'timeline-bg1' : 'timeline-bg2'}`}>
       <div className={`bg-transparent border border-grey rounded-lg p-8`}>
-        <h3 className="text-xl font-semibold mb-2">{experience.role}</h3>
+        <h3 className="text-xl font-semibold mb-2 text-justify">{experience.role}</h3>
         <h4 className="text-cyan-400 mb-4">{experience.company}</h4>
         <p className="text-purple-400 mb-2">{experience.date}</p>
-        <p className="text-white">{experience.description}</p>
+        <p className="text-white text-justify">{experience.description}</p>
       </div>
     </div>
   );

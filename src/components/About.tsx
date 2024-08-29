@@ -5,7 +5,7 @@ const About: React.FC = () => {
   return (
     <div id="about" className="relative flex items-center justify-center h-screen">
       <div className="text-white px-6 md:px-12">
-        <h2 className="text-center text-xl md:text-3xl font-bold mb-20 mt-0">Hi, my name is Farhan Aziz</h2>
+        <h2 className="text-center text-xl md:text-3xl font-bold mb-20 mt-0">Hi, my name is <span className="animated-gradient">Farhan Aziz</span></h2>
 
         <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
             <div className="bg-transparent rounded-lg shadow-lg px-5 py-6 sm:px-6 my-10 w-full max-w-3xl mx-auto border blur-background2 mt-0">

@@ -8,27 +8,12 @@ export const metadata = {
     url: 'https://retiishia.my.id',
     images: [
       {
-        url: "/screenshot.png"
+        url: "/oglink.png"
       }
     ],
     locale: 'en-GB',
     type: 'website',
   }
-
-
-// export const metadata = {
-//   title: 'Retiishia',
-//     description: 'Welcome to My Portofolio',
-//     url: 'https://retiishia.my.id',
-//     siteName: 'retiishia.my.id ',
-//     images: [
-//       {
-//         url: '/screenshot.png'
-//       },
-//     ],
-//     locale: 'en-GB',
-//     type: 'website',
-//   }
 
 export default function RootLayout({
   children,

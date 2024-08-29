@@ -5,7 +5,7 @@ import Link from 'next/link';
 const ContactCard: React.FC = () => {
   return (
     <div id='contact'>
-        <h2 className="text-2xl font-bold mb-2 text-center">Check Out My Resume ✨</h2>
+        <h2 className="text-2xl font-bold mb-2 text-center">Check Out My Resume Below ✨</h2>
         <div className="bg-transparent border p-8 rounded-lg shadow-lg text-white w-full md:max-w-4xl mx-auto mt-8 cc-bg blur-background">
             <div className="flex justify-between items-center">
                 <div>

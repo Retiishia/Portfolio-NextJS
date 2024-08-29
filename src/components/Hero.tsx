@@ -25,12 +25,9 @@ const Hero: React.FC = () => {
           </span>
         </p>
         <div className="flex justify-center space-x-4">
-          <ButtonLink className="border-white border-2 text-cyan-300 font-semibold px-6 py-2 rounded-md hover:bg-gray-500 hover:text-cyan-300" buttonText='Project' elementId='project'/>
-          <button className="bg-transparent border-2 border-white text-white font-semibold px-6 py-2 rounded-md hover:bg-gray-500 hover:text-cyan-300">
-            <Link className="text-cyan-300"href='https://drive.google.com/file/d/1CgKpKKoJ_uSybCZry8rr24ZsUAppdrLz/view' target='_blank'>
-              Resume
-            </Link>
-          </button>
+          <ButtonLink className="border-white border-2 text-cyan-300 font-semibold px-6 py-2 rounded-md hover:bg-gray-500 hover:text-cyan-300" buttonText='My Project' elementId='project'/>
+          <ButtonLink className="border-white border-2 text-cyan-300 font-semibold px-6 py-2 rounded-md hover:bg-gray-500 hover:text-cyan-300" buttonText='Experience' elementId='experience'/>
+          
         </div>
       </div>
       <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2">

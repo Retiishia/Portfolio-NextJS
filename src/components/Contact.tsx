@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin, FaDiscord } from 'react-icons/fa';
 import Link from 'next/link';
 
-const ContactCard: React.FC = () => {
+const Contact: React.FC = () => {
   return (
     <div id='contact'>
         <h2 className="text-2xl font-bold mb-2 text-center">Check Out My Resume Below ✨</h2>
@@ -26,4 +26,4 @@ const ContactCard: React.FC = () => {
   );
 };
 
-export default ContactCard;
+export default Contact;

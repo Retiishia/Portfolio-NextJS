@@ -1,8 +1,8 @@
 import Hero from '@/components/Hero'
 import About from '@/components/About'
-import VerticalTimeline  from '@/components/Timeline'
+import VerticalTimeline  from '@/components/Experience'
 import Project from '@/components/Project'
-import ContactCard from '@/components/ContactCard'
+import Contact from '@/components/Contact'
 import HireMeCard from '@/components/HireMe'
 import Footer from '@/components/Footer'
 import Navbar from '@/components/NavBar'
@@ -15,7 +15,7 @@ export default function Home() {
       <About/>
       <VerticalTimeline/>
       <Project/>
-      <ContactCard/>
+      <Contact/>
       <HireMeCard/>
       <Footer/>
     </>

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { FaDiscord, FaLinkedin, FaGithub } from 'react-icons/fa'
 import { ButtonLink } from './Scroller';
 
+
 const Footer: React.FC = () => {
   return (
     <footer className="text-white py-6 mt-40 footer-b">
@@ -14,8 +15,15 @@ const Footer: React.FC = () => {
           <div className="mb-6 md:mb-0 md:flex md:space-x-12">
           <ul className="space-y-4">
               <li>
-                <ButtonLink className="text-lg font-medium hover:text-cyan-400" buttonText='Home' elementId='hero'/>
+                <ButtonLink className="text-lg font-medium hover:text-gray-300" buttonText='Home' elementId='hero'/>
               </li>
+              <li>
+                <ButtonLink className="text-lg font-medium hover:text-gray-300" buttonText='Project' elementId='project'/>
+              </li>
+              <li>
+                <ButtonLink className="text-lg font-medium hover:text-gray-300" buttonText='Contact' elementId='contact'/>
+              </li>
+              
             </ul>
 
             {/* // LOGO Social Media */}
@@ -29,6 +37,7 @@ const Footer: React.FC = () => {
               <Link className="hover:text-cyan-400" href="https://discord.gg/zpcWqf2B8k" target='_blank'>
                 <FaDiscord size={36}/>
               </Link>
+              
             </div>
           </div>
         </div>

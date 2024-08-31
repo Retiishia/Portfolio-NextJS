@@ -3,7 +3,8 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { ButtonLink } from './Scroller';
-import { FaDiscord, FaGithub } from 'react-icons/fa';
+import { FaDiscord, FaGithub, FaBriefcase } from 'react-icons/fa';
+
 
 const Navbar: React.FC = () => {
 
@@ -36,7 +37,6 @@ const Navbar: React.FC = () => {
         <div className="hidden md:flex space-x-6">
           <ButtonLink className="text-lg font-medium  text-white hover:text-cyan-400" buttonText='Home' elementId='hero'/>
           <ButtonLink className="text-lg font-medium  text-white hover:text-cyan-400" buttonText='About' elementId='about'/>
-          <ButtonLink className="text-lg font-medium  text-white hover:text-cyan-400" buttonText='Experience' elementId='experience'/>
           <ButtonLink className="text-lg font-medium  text-white hover:text-cyan-400" buttonText='Project' elementId='project'/>
           <ButtonLink className="text-lg font-medium  text-white hover:text-cyan-400" buttonText='Contact' elementId='contact'/>
         </div>
@@ -65,13 +65,17 @@ const Navbar: React.FC = () => {
           </Link>
         </div>
       </nav>
+
+      {/* Navbar Mobile Hamburger */}
       <div className={`md:hidden ${mobileMenuOpen ? 'flex' : 'hidden'} justify-between mt-4 mb-6 ml-5`}>
         <div className="flex flex-col space-y-4">
           <ButtonLink className="text-left text-lg font-medium  text-white hover:text-cyan-400" buttonText='Home' elementId='hero'/>
           <ButtonLink className="text-left text-lg font-medium  text-white hover:text-cyan-400" buttonText='About' elementId='about'/>
-          <ButtonLink className="text-left text-lg font-medium  text-white hover:text-cyan-400" buttonText='Experience' elementId='experience'/>
           <ButtonLink className="text-left text-lg font-medium  text-white hover:text-cyan-400" buttonText='Project' elementId='project'/>
           <ButtonLink className="text-left text-lg font-medium  text-white hover:text-cyan-400" buttonText='Contact' elementId='contact'/>
+          <Link href="mailto:azizfarhan72@gmail.com" className="animated-gradient text-left text-lg font-medium  text-white hover:text-cyan-400">
+            <span className="text-md md:text-sm hover:text-black">I&apos;m looking for a job as a Front-End Engineer or IT Support</span>
+          </Link>
 
         </div>
         <div className="flex items-center mt-20 mr-4 ">

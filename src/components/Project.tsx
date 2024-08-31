@@ -11,6 +11,13 @@ const projects = [
       imageUrl: '/datenshi.png',
       caseStudyUrl: 'https://datenshi.pw',
     },
+    {
+      title: 'Portfolio Website',
+      description: 'Portfolio website built in Next.JS 14 to showcase my projects, experience and resume through a cooler way. Checkout the repo and more by clicking on me.',
+      imageUrl: '/nextjs.png',
+      caseStudyUrl: 'https://github.com/Retiishia/Portfolio-NextJS',
+    }
+    
     
   ];
 

@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           <div className="animated-gradient text-2xl font-semibold mb-6 md:mb-0">
             Retiishia
           </div>
-          <div className="mb-6 md:mb-0 md:flex md:space-x-12">
+          <div className="mb-6 md:mb-0 py-4 md:p-14 md:flex md:space-x-12">
           <ul className="space-y-4">
               <li>
                 <ButtonLink className="text-lg font-medium hover:text-gray-300" buttonText='Home' elementId='hero'/>
@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
             </ul>
 
             {/* // LOGO Social Media */}
-            <div className="flex space-x-6 ">
+            <div className="flex space-x-6 py-6">
               <Link className="hover:text-cyan-400" href="https://github.com/Retiishia" target='_blank'>
                 <FaGithub size={36}/>
               </Link>

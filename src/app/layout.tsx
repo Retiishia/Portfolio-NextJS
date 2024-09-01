@@ -1,11 +1,14 @@
-import { url } from 'inspector'
+import { Metadata } from 'next'
 import './globals.css'
 
 export const metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_METADATA_BASE || 'http://localhost:3000'),
   title: "Retiishia",
-    description: 'Welcome to my portfolio!',
-    siteName: 'retiishia.my.id',
-    url: 'https://retiishia.my.id',
+  description: 'Welcome to My Portfolio!',
+  openGraph: {
+    title: 'Retiishia',
+    description: 'Welcome to My Portfolio!',
+    siteName: 'Retiishia.my.id',
     images: [
       {
         url: "/oglink.png"
@@ -13,7 +16,15 @@ export const metadata = {
     ],
     locale: 'en-GB',
     type: 'website',
-  }
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Retiishia',
+    description: 'Welcome to my portfolio!',
+    creator: '@Retiishia',
+    images: ['/oglink.png'],
+  },
+}
 
 export default function RootLayout({
   children,

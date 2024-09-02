@@ -15,13 +15,13 @@ const Footer: React.FC = () => {
           <div className="mb-6 md:mb-0 py-4 md:p-14 md:flex md:space-x-12">
           <ul className="space-y-4">
               <li>
-                <ButtonLink className="text-lg font-medium hover:text-gray-300" buttonText='Home' elementId='hero'/>
+                <ButtonLink className="text-lg font-medium hover:text-cyan-400" buttonText='Home' elementId='hero'/>
               </li>
               <li>
-                <ButtonLink className="text-lg font-medium hover:text-gray-300" buttonText='Project' elementId='project'/>
+                <ButtonLink className="text-lg font-medium hover:text-cyan-400" buttonText='Project' elementId='project'/>
               </li>
               <li>
-                <ButtonLink className="text-lg font-medium hover:text-gray-300" buttonText='Contact' elementId='contact'/>
+                <ButtonLink className="text-lg font-medium hover:text-cyan-400" buttonText='Contact' elementId='contact'/>
               </li>
               
             </ul>

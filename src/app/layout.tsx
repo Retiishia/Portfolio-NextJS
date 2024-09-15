@@ -11,7 +11,7 @@ export const metadata = {
     siteName: 'Retiishia.my.id',
     images: [
       {
-        url: "/oglink.png"
+        url: "/dashboard.png"
       }
     ],
     locale: 'en-GB',
@@ -20,9 +20,9 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Retiishia',
-    description: 'Welcome to my portfolio!',
+    description: 'Welcome to my Portfolio!',
     creator: '@Retiishia',
-    images: ['/oglink.png'],
+    images: ['/dashboard.png'],
   },
 }
 

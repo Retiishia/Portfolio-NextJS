@@ -7,7 +7,7 @@ const projects = [
     },
     {
       title: 'Datenshi',
-      description: 'Project Making Website with Datenshi Games Indonesia using Next.JS & Tailwind CSS',
+      description: 'Create components for frontend using TailwindCSS and customize it using Next.JS & Tailwind CSS for base website with a Team',
       imageUrl: '/datenshi.png',
       caseStudyUrl: 'https://datenshi.pw',
     },

@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 
 const About: React.FC = () => {
   return (
@@ -12,7 +11,7 @@ const About: React.FC = () => {
                 <h2 className="text-2xl font-semibold text-white mb-6">About Me</h2>
                 <div className="space-y-4">
                     <p className="text-gray-200 text-justify">
-                        I&apos;m a 23 year old as  a Front-End Engineer from Bandung, Indonesia, who loves to create solve problems. Frontend development is my forte, I enjoy keeping up with the latest web technologies and best practices to realize designs with clean and efficient code.
+                        I&apos;m a 23 year old and Fresh Graduate in Informatics Engineering from Bandung, Indonesia, who loves to create solve problems. Frontend development is my forte, I enjoy keeping up with the latest web technologies and best practices to realize designs with clean and efficient code.
                     </p>
                     <h3 className="text-xl font-semibold text-white">Languages & Frameworks</h3>
                     <div className="flex justify-between items-end">

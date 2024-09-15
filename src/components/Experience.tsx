@@ -20,7 +20,8 @@ const experiences = [
     role: 'Front-End Engineer - Freelance',
     company: 'PT. Datenshi Games Indonesia',
     date: 'Apr 2024 - Present',
-    description: 'Developed a Landing Page Website Interface Using Next.JS and TailWind CSS',
+    description: `Implementing design from UI/UX to website using Figma, 
+    Create landing page Using nextjs and tailwind for base website, Create components for frontend using TailwindCSS and customize it`
   },
 ];
 

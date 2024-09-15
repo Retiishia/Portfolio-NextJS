@@ -1,11 +1,10 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaDiscord } from 'react-icons/fa';
 import Link from 'next/link';
 
 const Contact: React.FC = () => {
   return (
     <div id='contact' className="flex flex-col items-center justify-center">
-        <h2 className="text-2xl font-bold mb-2 text-center">Check Out My Resume Below ✨</h2>
+        <h2 className="text-2xl font-bold mb-2 text-center">Check Out My Resumé Below ✨</h2>
         <div className="bg-transparent border p-8 rounded-lg shadow-lg text-white md:max-w-4xl md:w-full mx-4 mt-8 cc-bg blur-background">
             <div className="flex justify-between items-center">
                 <div>

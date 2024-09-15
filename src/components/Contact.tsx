@@ -14,7 +14,7 @@ const Contact: React.FC = () => {
 
                 <div className="flex space-x-4">
                 <button className="bg-inherit border text-cyan-300 px-4 py-2 rounded shadow hover:bg-gray-500 hover:text-cyan-300 transition-colors duration-200">
-                        <Link href='https://drive.google.com/file/d/1CgKpKKoJ_uSybCZry8rr24ZsUAppdrLz/view' target='_blank'>
+                        <Link href='https://drive.google.com/file/d/19mDel6oTCA-IC0TfXOy1QERFDIDWlc_S/view' target='_blank'>
                             Resume
                         </Link>
                     </button>

@@ -3,10 +3,11 @@ import React from 'react';
 const experiences = [
   {
     id: 1,
-    role: 'Network Engineer - Internship',
-    company: 'PT. INTI',
-    date: 'Aug 2018 - Nov 2018',
-    description: 'Implemented and optimized Wi-Fi 5G Infrastructure to enable rapid long-distance data transmission.',
+    role: 'Front-End Engineer - Freelance',
+    company: 'PT. Datenshi Games Indonesia',
+    date: 'Apr 2024 - Present',
+    description: `Implementing design from UI/UX to website using Figma, 
+    Create landing page Using nextjs and tailwind for base website, Create components for frontend using TailwindCSS and customize it`
   },
   {
     id: 2,
@@ -17,11 +18,10 @@ const experiences = [
   },
   {
     id: 3,
-    role: 'Front-End Engineer - Freelance',
-    company: 'PT. Datenshi Games Indonesia',
-    date: 'Apr 2024 - Present',
-    description: `Implementing design from UI/UX to website using Figma, 
-    Create landing page Using nextjs and tailwind for base website, Create components for frontend using TailwindCSS and customize it`
+    role: 'Network Engineer - Internship',
+    company: 'PT. INTI',
+    date: 'Aug 2018 - Nov 2018',
+    description: 'Implemented and optimized Wi-Fi 5G Infrastructure to enable rapid long-distance data transmission.',
   },
 ];
 

@@ -49,7 +49,7 @@ const VerticalTimeline: React.FC = () => {
       <h2 className="text-3xl font-bold mb-16 text-center">Work Experience</h2>
       <div className="container mx-auto px-6">
         <div className="relative w-full">
-          <div className="hidden md:block border-l-2 border-cyan-500 border-cyan-450 absolute left-1/2 transform -translate-x-1/2 h-full"></div>
+          <div className="hidden md:block border-l-2 border-x-indigo-600 absolute left-1/2 transform -translate-x-1/2 h-full"></div>
           {experiences.map((experience, index) => (
             <TimelineItem
               key={experience.id}

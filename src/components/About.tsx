@@ -17,8 +17,8 @@ const About: React.FC = () => {
                     <div className="flex justify-between items-end">
                         <ul className="list-disc pl-4 text-gray-400">
                             <li>JavaScript / TypeScript</li>
-                            <li>React / Next.js</li>
-                            <li>HTML / CSS / Tailwind CSS</li>
+                            <li>React / Next.JS</li>
+                            <li>HTML / CSS / Tailwind CSS / Bootstrap CSS</li>
                         </ul>
                     </div>
                     <h3 className="text-xl font-semibold text-white">Hard Skill</h3>
